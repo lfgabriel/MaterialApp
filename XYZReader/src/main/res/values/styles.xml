@@ -18,7 +18,9 @@
 <resources>
 
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
     </style>
 
     <style name="Theme.Bacon.Detail">
@@ -27,9 +29,7 @@
 
     <style name="xyzStyle" parent="@style/Theme.AppCompat">
         <item name="android:background">#FF388368</item>
+
     </style>
-
-
-    <style name="xyzAppBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
 </resources>

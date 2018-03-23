@@ -8,6 +8,7 @@
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="220dp"
+        android:elevation="4dp"
         android:fitsSystemWindows="true">
 
         <android.support.design.widget.CollapsingToolbarLayout
@@ -32,7 +33,6 @@
                 android:alpha=".1"
                 android:background="@color/detail_grey_view"
                 android:fitsSystemWindows="true" />
-
 
             <FrameLayout
                 android:id="@+id/frame_layout_collapsing_toolbar"
@@ -130,6 +130,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end|bottom"
+        android:elevation="12dp"
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@drawable/ic_share" />
 
