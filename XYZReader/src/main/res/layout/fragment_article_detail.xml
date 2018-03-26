@@ -9,7 +9,6 @@
         android:layout_height="match_parent"
         android:linksClickable="true"
         android:padding="16dp"
-        android:textColor="@color/detail_article_body_text"
-        android:textColorLink="?colorAccent" />
+        android:textColor="@color/detail_article_body_text" />
 
 </android.support.v4.widget.NestedScrollView>

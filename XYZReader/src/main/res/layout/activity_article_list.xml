@@ -13,16 +13,16 @@
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:elevation="4dp"
-        style="@style/xyzStyle">
+        style="@style/Theme.Bacon">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/ctl_maincollapsetoolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:layout_scrollFlags="exitUntilCollapsed"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
             app:expandedTitleMarginStart="32dp"
             app:expandedTitleMarginEnd="48dp"
-            style="@style/xyzStyle">
+            style="@style/Theme.Bacon">
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
